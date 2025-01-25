@@ -51,7 +51,7 @@ function App() {
   )
 
   return (
-    <div className="mx-auto p-4 bg-black text-white">
+    <div className="h-screen mx-auto p-4 bg-black text-white">
       <h1 className="text-2xl font-bold mb-4">Inventory Management</h1>-
       <AddItemForm addItem={addItem} />
       <FilterSort filter={filter} setFilter={setFilter} sortOrder={sortOrder} setSortOrder={setSortOrder} />
