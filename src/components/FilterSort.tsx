@@ -9,7 +9,7 @@ interface FilterSortProps {
 function FilterSort({ filter, setFilter, sortOrder, setSortOrder }: FilterSortProps) {
     return (
         <div className="mb-4 flex gap-2">
-            <select value={filter} onChange={(e) => setFilter(e.target.value)} className="border rounded px-2 py-1">
+            <select value={filter} onChange={(e) => setFilter(e.target.value)} className="border rounded px-2 py-1 bg-black text-white">
                 <option value="All">All Categories</option>
                 <option value="Electronics">Electronics</option>
                 <option value="Furniture">Furniture</option>

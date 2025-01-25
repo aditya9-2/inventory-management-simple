@@ -39,7 +39,7 @@ function AddItemForm({ addItem }: AddItemFormProps) {
                 value={category}
                 onChange={(e) => setCategory(e.target.value)}
                 required
-                className="border rounded px-2 py-1"
+                className="border rounded px-2 py-1 bg-black text-white"
             >
                 <option value="">Select category</option>
                 <option value="Electronics">Electronics</option>
